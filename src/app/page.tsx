@@ -33,6 +33,16 @@ export default function Home() {
         <CountdownTimer />
       </>
     </section>
+    <section className='bar'>
+        <div className="cta-capa">
+          <Link style={{ textDecoration: 'inherit' }} href={'https://pay.kiwify.com.br/jpLUtOM'}>
+            <div className="button-cta">
+              começar agora
+            </div>
+          </Link>
+          <p className='descri-cta'>Garanta agora mesmo seu <span className='descri-cta-red'>Certificado Gratuito!</span></p>
+        </div>
+    </section>
     <VideoVSL />
     <section className='app'>
       <div className="logo-score">
@@ -142,7 +152,7 @@ export default function Home() {
                 <p className='txt-name'>Roger Guedes</p>
                 <div className="compania">
                   <Image className='logo-compania' src={LogoUber} alt="LogoApple" />
-                  Apple
+                  Uber
                 </div>
               </div>
             </div>
