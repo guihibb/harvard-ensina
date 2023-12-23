@@ -1,2 +1,2 @@
-# harvard-ensina
+# Harvard Ensina 🙈
 Construção da Plataforma de Curso Harvard Ensina 
