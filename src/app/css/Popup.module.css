@@ -1,0 +1,26 @@
+/* Popup.module.css */
+.popup {
+    position: fixed;
+    bottom: 0; /* Mudança para a parte inferior */
+    left: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden; /* Garante que nada além do conteúdo visível é exibido */
+  }
+  
+  .popupContent {
+    background: white;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    animation: slideIn 0.5s ease; /* Atualize a animação para slideIn */
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
