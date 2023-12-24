@@ -35,7 +35,7 @@ export default function Home() {
     </section>
     <section className='bar'>
         <div className="cta-capa">
-          <Link style={{ textDecoration: 'inherit' }} href={'https://pay.kiwify.com.br/jpLUtOM'}>
+          <Link style={{ textDecoration: 'inherit',}} href={'https://pay.kiwify.com.br/jpLUtOM'}>
             <div className="button-cta">
               começar agora
             </div>

@@ -1,5 +1,5 @@
 {
-  "name": "harvard-ensina",
+  "name": "c",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.2",
     "moment": "^2.29.4",
-    "next": "14.0.4",
+    "next": "^14.0.4",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -23,5 +23,9 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "typescript": "^5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }
