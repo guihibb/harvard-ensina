@@ -48,11 +48,7 @@ export default function Home() {
       <div className="logo-score">
         <Image className='logoHarvard' src={LogoHarvard} alt={"LogoHarvard"} />
         <div className="score">
-          <div className="socore-star">
-            4.9
-            <Image src={Star} alt="Star" />
-          </div>
-          <Aluno />
+        <Aluno />
       </div>
       </div>
       <div className="txt-entrada">

@@ -18,7 +18,7 @@ const CountingComponent: React.FC<CountingComponentProps> = ({ initialValue }) =
   }, []); // O segundo argumento [] garante que o efeito é executado apenas uma vez no montar do componente
 
   return (
-      <p className='aluno-contador'>{count} alunos</p>
+      <p className='aluno-contador'>+{count} Novos Alunos</p>
   );
 };
 
