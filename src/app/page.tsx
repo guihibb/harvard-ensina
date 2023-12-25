@@ -22,7 +22,13 @@ import Profile2 from '../../public/images/perfil-2.png'
 import Profile3 from '../../public/images/perfil-3.png'
 import ErrorIcon from '../../public/error.svg'
 import LogoEnsina from '../../public/logo-ensina.svg'
-
+import LogoG1 from "../../public/g1-icon.png"
+import LogoCNN from "../../public/cnn-icon.png"
+import LogoUol from "../../public/uol-icon.png"
+import VerificadoIcon from "../../public/verificado-icon.svg"
+import Banner1 from "../../public/harvard-image-1.png"
+import Banner2 from "../../public/harvard-image-2.png"
+import Banner3 from "../../public/harvard-image-3.png"
 
 
 export default function Home() {
@@ -156,6 +162,83 @@ export default function Home() {
           </div>
           <Image className='CapaProfile1' src={CapaProfile3} alt="CapaProfile1" />
           <p className='txt-comentarios'>A concorrência para ingressar na Uber é intensa, mas o CS50 de Harvard me deu a vantagem que eu precisava.</p>
+        </div>
+      </div>
+      <div className="txt-entrada">
+        <h1 className='txt-h1'>Veja As <span className='txt-h1-red'>Consquistas </span>De Nossos <span className='txt-h1-red'>Alunos!</span></h1>
+        <p className='txt-p'>Descubra como o CS50 de Harvard tem transformado vidas, abrindo portas para oportunidades incríveis.</p>
+      </div>
+      <div className="noticias-box-canais">
+        <div className="box-noticia">
+          <div className="noticia">
+            <div className="canal">
+              <div className="dados-canal">
+                <Image className='logog1' src={LogoG1} alt="LogoG1" />
+                <div className="nome-hora">
+                  <div className="nome-box-canal">
+                    <h1 className='nome-canal'>G1</h1>
+                    <Image src={VerificadoIcon} alt="VerificadoIcon" />
+                  </div>
+                  <p className='hora-data'>8 horas atrás</p>
+                </div>
+              </div>
+              <div className="noticia-escrita">
+                <h1 className='txt-h1-news'>CS50: Transformando Alunos em Estrelas da Programação.</h1>
+                <p className='txt-p-news'>Leia as histórias inspiradoras de alunos do CS50 de Harvard que agora brilham...</p>
+              </div>
+            </div>
+          </div>
+          <Image className='Banner1' src={Banner1} alt="Banner1" />
+        </div>
+        <div className="box-noticia">
+          <div className="noticia">
+            <div className="canal">
+              <div className="dados-canal">
+                <Image className='logog1' src={LogoCNN} alt="LogoG1" />
+                <div className="nome-hora">
+                  <div className="nome-box-canal">
+                    <h1 className='nome-canal'>CNN</h1>
+                    <Image src={VerificadoIcon} alt="VerificadoIcon" />
+                  </div>
+                  <p className='hora-data'>12 horas atrás</p>
+                </div>
+              </div>
+              <div className="noticia-escrita">
+                <h1 className='txt-h1-news'>Transformando Carreiras em Histórias de Sucesso.</h1>
+                <p className='txt-p-news'>Descubra as incríveis transformações de carreira impulsionadas pelo CS50...</p>
+              </div>
+            </div>
+          </div>
+          <Image className='Banner1' src={Banner2} alt="Banner1" />
+        </div>
+        <div className="box-noticia">
+          <div className="noticia">
+            <div className="canal">
+              <div className="dados-canal">
+                <Image className='logog1' src={LogoUol} alt="LogoG1" />
+                <div className="nome-hora">
+                  <div className="nome-box-canal">
+                    <h1 className='nome-canal'>UOL</h1>
+                    <Image src={VerificadoIcon} alt="VerificadoIcon" />
+                  </div>
+                  <p className='hora-data'>18 horas atrás</p>
+                </div>
+              </div>
+              <div className="noticia-escrita">
+                <h1 className='txt-h1-news'>CS50 de Harvard: Revolução na Educação Online.</h1>
+                <p className='txt-p-news'>Acompanhe a UOL, que trazem à tona as histórias fascinantes de alunos do CS50...</p>
+              </div>
+            </div>
+          </div>
+          <Image className='Banner1' src={Banner3} alt="Banner1" />
+        </div>
+        <div className="cta-news">
+          <Link style={{ textDecoration: 'inherit' }} href={'https://pay.kiwify.com.br/jpLUtOM'}>
+              <div className="button-cta">
+                Junte-se a uma comunidade
+              </div>
+            </Link>
+            <p className='descri-cta'>Sua história de sucesso começa com o <span className='descri-cta-red'>CS50!</span></p>
         </div>
       </div>
       <div className="txt-entrada">
