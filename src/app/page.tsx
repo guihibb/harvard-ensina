@@ -29,7 +29,7 @@ import VerificadoIcon from "../../public/verificado-icon.svg"
 import Banner1 from "../../public/harvard-image-1.png"
 import Banner2 from "../../public/harvard-image-2.png"
 import Banner3 from "../../public/harvard-image-3.png"
-
+import CircleIndicator from "../app/componentes/progress"
 
 export default function Home() {
   return (
@@ -39,6 +39,7 @@ export default function Home() {
         <CountdownTimer />
       </>
     </section>
+    <CircleIndicator />
     <section className='bar'>
         <div className="cta-capa">
           <Link style={{ textDecoration: 'inherit',}} href={'https://pay.kiwify.com.br/jpLUtOM'}>
