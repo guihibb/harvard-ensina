@@ -213,7 +213,6 @@ export default function Home() {
         </div>
         <div className="box-noticia">
           <div className="noticia">
-            <div className="canal">
               <div className="dados-canal">
                 <Image className='logog1' src={LogoUol} alt="LogoG1" />
                 <div className="nome-hora">
@@ -228,7 +227,6 @@ export default function Home() {
                 <h1 className='txt-h1-news'>CS50 de Harvard: Revolução na Educação Online.</h1>
                 <p className='txt-p-news'>Acompanhe a UOL, que trazem à tona as histórias fascinantes de alunos do CS50...</p>
               </div>
-            </div>
           </div>
           <Image className='Banner1' src={Banner3} alt="Banner1" />
         </div>
