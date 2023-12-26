@@ -8,6 +8,7 @@ const AnimatedImage = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [size, setSize] = useState(0);
   const [backgroundOpacity, setBackgroundOpacity] = useState(1);
+  const [zIndex, setZIndex] = useState(9999);
 
   useEffect(() => {
     const timeoutShow = setTimeout(() => {
@@ -18,12 +19,17 @@ const AnimatedImage = () => {
     const timeoutHide = setTimeout(() => {
       setIsVisible(false);
       setSize(0);
-      setBackgroundOpacity(0); // Diminui a opacidade do fundo
+      setBackgroundOpacity(0);
     }, 3000);
+
+    const timeoutResetZIndex = setTimeout(() => {
+      setZIndex(0);
+    }, 4000); // 3 segundos da animação + 1 segundo de espera
 
     return () => {
       clearTimeout(timeoutShow);
       clearTimeout(timeoutHide);
+      clearTimeout(timeoutResetZIndex);
     };
   }, []);
 
@@ -38,7 +44,7 @@ const AnimatedImage = () => {
         overflow: 'hidden',
         backgroundColor: `rgba(255, 255, 255, ${backgroundOpacity})`,
         transition: 'background-color 1s ease-in-out',
-        zIndex: 9999, // Valor alto para garantir que fique acima de outros elementos
+        zIndex: zIndex,
       }}
     >
       <div
@@ -48,7 +54,7 @@ const AnimatedImage = () => {
           left: '50%',
           transform: `translate(-50%, -50%) scale(${size / 100})`,
           transition: 'top 1s ease-in-out, transform 1s ease-in-out',
-          zIndex: 10000, // Um valor ainda mais alto para garantir que fique acima do fundo
+          zIndex: zIndex + 1, // Um valor acima do fundo
         }}
       >
         <Image
