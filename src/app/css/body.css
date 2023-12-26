@@ -189,6 +189,7 @@ body {
 }
 
 .button-cta {
+    z-index: 4;
     text-decoration: none;
 
     color: #FFF;

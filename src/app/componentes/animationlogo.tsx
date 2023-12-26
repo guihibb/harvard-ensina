@@ -1,5 +1,7 @@
 // components/Image.tsx
 "use client"
+// components/Image.tsx
+
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Harvard from "../../../public/harvard-icon.svg";
@@ -22,14 +24,14 @@ const AnimatedImage = () => {
       setBackgroundOpacity(0);
     }, 3000);
 
-    const timeoutResetZIndex = setTimeout(() => {
+    const timeoutRemoveBackground = setTimeout(() => {
       setZIndex(0);
     }, 4000); // 3 segundos da animação + 1 segundo de espera
 
     return () => {
       clearTimeout(timeoutShow);
       clearTimeout(timeoutHide);
-      clearTimeout(timeoutResetZIndex);
+      clearTimeout(timeoutRemoveBackground);
     };
   }, []);
 
@@ -45,6 +47,7 @@ const AnimatedImage = () => {
         backgroundColor: `rgba(255, 255, 255, ${backgroundOpacity})`,
         transition: 'background-color 1s ease-in-out',
         zIndex: zIndex,
+        display: zIndex === 0 ? 'none' : 'block',
       }}
     >
       <div
