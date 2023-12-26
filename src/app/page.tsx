@@ -30,15 +30,20 @@ import Banner1 from "../../public/harvard-image-1.png"
 import Banner2 from "../../public/harvard-image-2.png"
 import Banner3 from "../../public/harvard-image-3.png"
 import CircleIndicator from "../app/componentes/progress"
+import Logo from "../app/componentes/animationlogo"
+
 
 export default function Home() {
   return (
-    <><section className='Contador-section'>
+    <>
+    <Logo />
+    <section className='Contador-section'>
       <>
         <p className='txt-contador'>Últimas Turmas! <span className='txt-contador-span'>Tempo Restante:</span></p>
         <CountdownTimer />
       </>
     </section>
+    <Logo />
     <CircleIndicator />
     <section className='bar'>
         <div className="cta-capa">
