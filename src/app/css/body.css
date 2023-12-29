@@ -168,6 +168,10 @@ body {
     border-radius: 10px;
     border: 2px solid var(--cor-primaria-1, #A81D28);
     background: rgba(168, 29, 40, 0.10);
+}@media (min-width: 495px) {
+    .modulos-carrosel {
+        width: 12%;
+    }
 }
 
 .capa-curso {
@@ -562,4 +566,51 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.text-section-curse {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.section-1-1-- {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.noticias-section {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+@media (min-width: 1024px) {
+    .section-1-1-- {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .capa {
+        width: 600px;
+    }
+    .beneficios {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .container-bf {
+        width: 100%;
+    }
+    .section-comentarios {
+        display: flex;
+        flex-direction: row;
+    }
+    .noticias-section {
+        display: flex;
+        flex-direction: row;
+
+    }
+    
 }

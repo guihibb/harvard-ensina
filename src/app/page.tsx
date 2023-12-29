@@ -63,34 +63,38 @@ export default function Home() {
         <Aluno />
       </div>
       </div>
-      <div className="txt-entrada">
-        <h1 className='txt-h1'>Transforme seu Futuro com o Curso <span className='txt-h1-red'>CS50</span> de <span className='txt-h1-red'>Harvard!</span></h1>
-        <p className='txt-p'>Introdução à Ciência da Computação de Harvard, mais conhecido como CS50.</p>
-      </div>
-      <div className="moulos">
-        <div className="modulos-carrosel">
-          sql
-        </div>
-        <div className="modulos-carrosel">
-          python
-        </div>
-        <div className="modulos-carrosel">
-          c#
-        </div>
-        <div className="modulos-carrosel">
-          java
-        </div>
-      </div>
-      <div className="capa-curso">
-        <Image className='capa' src={Capa} alt="" />
-        <div className="cta-capa">
-          <Link style={{ textDecoration: 'inherit' }} href={'https://pay.kiwify.com.br/jpLUtOM'}>
-            <div className="button-cta">
-              Transforme Sua Carreira
+     <div className="section-1-1--">
+        <div className="text-section-curse">
+            <div className="txt-entrada">
+              <h1 className='txt-h1'>Transforme seu Futuro com o Curso <span className='txt-h1-red'>CS50</span> de <span className='txt-h1-red'>Harvard!</span></h1>
+              <p className='txt-p'>Introdução à Ciência da Computação de Harvard, mais conhecido como CS50.</p>
             </div>
-          </Link>
-          <p className='descri-cta'>Inscreva-se hoje e receba um <span className='descri-cta-red'>Certificado Gratuito!</span></p>
-        </div>
+            <div className="moulos">
+              <div className="modulos-carrosel">
+                sql
+              </div>
+              <div className="modulos-carrosel">
+                python
+              </div>
+              <div className="modulos-carrosel">
+                c#
+              </div>
+              <div className="modulos-carrosel">
+                java
+              </div>
+            </div>
+          </div>
+          <div className="capa-curso">
+            <Image className='capa' src={Capa} alt="" />
+            <div className="cta-capa">
+              <Link style={{ textDecoration: 'inherit' }} href={'https://pay.kiwify.com.br/jpLUtOM'}>
+                <div className="button-cta">
+                  Transforme Sua Carreira
+                </div>
+              </Link>
+              <p className='descri-cta'>Inscreva-se hoje e receba um <span className='descri-cta-red'>Certificado Gratuito!</span></p>
+            </div>
+          </div>
       </div>
       <div className="txt-entrada">
         <h1 className='txt-h1'>Por que Escolher o <span className='txt-h1-red'>CS50</span> de <span className='txt-h1-red'>Harvard!</span></h1>
@@ -118,123 +122,125 @@ export default function Home() {
         <p className='txt-p'>Conquiste seu Lugar nas BigTechs com o CS50 de Harvard!</p>
       </div>
       <div className="section-comentarios">
-        <div className="comentarios">
-          <div className="profile-stars">
-            <div className="profile">
-              <Image className='profile-logo' src={Profile1} alt="Profile1" />
-              <div className="name">
-                <p className='txt-name'>Diego Mendes</p>
-                <div className="compania">
-                  <Image className='logo-compania' src={LogoApple} alt="LogoApple" />
-                  Apple
+          <div className="comentarios">
+            <div className="profile-stars">
+              <div className="profile">
+                <Image className='profile-logo' src={Profile1} alt="Profile1" />
+                <div className="name">
+                  <p className='txt-name'>Diego Mendes</p>
+                  <div className="compania">
+                    <Image className='logo-compania' src={LogoApple} alt="LogoApple" />
+                    Apple
+                  </div>
                 </div>
               </div>
+              <Image className='StarProfile' src={StarProfile} alt="StarProfile" />
             </div>
-            <Image className='StarProfile' src={StarProfile} alt="StarProfile" />
+            <Image className='CapaProfile1' src={CapaProfile1} alt="CapaProfile1" />
+            <p className='txt-comentarios'>Consegui um emprego dos sonhos na Apple, onde aplico diariamente o conhecimento adquirido. Agradeço à Harvard por abrir as portas do meu futuro.</p>
           </div>
-          <Image className='CapaProfile1' src={CapaProfile1} alt="CapaProfile1" />
-          <p className='txt-comentarios'>Consegui um emprego dos sonhos na Apple, onde aplico diariamente o conhecimento adquirido. Agradeço à Harvard por abrir as portas do meu futuro.</p>
-        </div>
-        <div className="comentarios">
-          <div className="profile-stars">
-            <div className="profile">
-              <Image className='profile-logo' src={Profile2} alt="Profile1" />
-              <div className="name">
-                <p className='txt-name'>Walmyr Carvalho</p>
-                <div className="compania">
-                  <Image className='logo-compania' src={LogoGoogle} alt="LogoApple" />
-                  Google
+          <div className="comentarios">
+            <div className="profile-stars">
+              <div className="profile">
+                <Image className='profile-logo' src={Profile2} alt="Profile1" />
+                <div className="name">
+                  <p className='txt-name'>Walmyr Carvalho</p>
+                  <div className="compania">
+                    <Image className='logo-compania' src={LogoGoogle} alt="LogoApple" />
+                    Google
+                  </div>
                 </div>
               </div>
+              <Image className='StarProfile' src={StarProfile} alt="StarProfile" />
             </div>
-            <Image className='StarProfile' src={StarProfile} alt="StarProfile" />
+            <Image className='CapaProfile1' src={CapaProfile2} alt="CapaProfile1" />
+            <p className='txt-comentarios'>Trabalhar na Google sempre foi meu objetivo, mas parecia distante. O CS50 de Harvard foi o catalisador que transformou minha jornada.</p>
           </div>
-          <Image className='CapaProfile1' src={CapaProfile2} alt="CapaProfile1" />
-          <p className='txt-comentarios'>Trabalhar na Google sempre foi meu objetivo, mas parecia distante. O CS50 de Harvard foi o catalisador que transformou minha jornada.</p>
-        </div>
-        <div className="comentarios">
-          <div className="profile-stars">
-            <div className="profile">
-              <Image className='profile-logo' src={Profile3} alt="Profile1" />
-              <div className="name">
-                <p className='txt-name'>Roger Guedes</p>
-                <div className="compania">
-                  <Image className='logo-compania' src={LogoUber} alt="LogoApple" />
-                  Uber
+          <div className="comentarios">
+            <div className="profile-stars">
+              <div className="profile">
+                <Image className='profile-logo' src={Profile3} alt="Profile1" />
+                <div className="name">
+                  <p className='txt-name'>Roger Guedes</p>
+                  <div className="compania">
+                    <Image className='logo-compania' src={LogoUber} alt="LogoApple" />
+                    Uber
+                  </div>
                 </div>
               </div>
+              <Image className='StarProfile' src={StarProfile} alt="StarProfile" />
             </div>
-            <Image className='StarProfile' src={StarProfile} alt="StarProfile" />
+            <Image className='CapaProfile1' src={CapaProfile3} alt="CapaProfile1" />
+            <p className='txt-comentarios'>A concorrência para ingressar na Uber é intensa, mas o CS50 de Harvard me deu a vantagem que eu precisava.</p>
           </div>
-          <Image className='CapaProfile1' src={CapaProfile3} alt="CapaProfile1" />
-          <p className='txt-comentarios'>A concorrência para ingressar na Uber é intensa, mas o CS50 de Harvard me deu a vantagem que eu precisava.</p>
-        </div>
       </div>
-      <div className="txt-entrada">
-        <h1 className='txt-h1'>Veja As <span className='txt-h1-red'>Consquistas </span>De Nossos <span className='txt-h1-red'>Alunos!</span></h1>
-        <p className='txt-p'>Descubra como o CS50 de Harvard tem transformado vidas, abrindo portas para oportunidades incríveis.</p>
-      </div>
-      <div className="noticias-box-canais">
-        <div className="box-noticia">
-          <div className="noticia">
-            <div className="canal">
-              <div className="dados-canal">
-                <Image className='logog1' src={LogoG1} alt="LogoG1" />
-                <div className="nome-hora">
-                  <div className="nome-box-canal">
-                    <h1 className='nome-canal'>G1</h1>
-                    <Image src={VerificadoIcon} alt="VerificadoIcon" />
+        <div className="txt-entrada">
+          <h1 className='txt-h1'>Veja As <span className='txt-h1-red'>Consquistas </span>De Nossos <span className='txt-h1-red'>Alunos!</span></h1>
+          <p className='txt-p'>Descubra como o CS50 de Harvard tem transformado vidas, abrindo portas para oportunidades incríveis.</p>
+        </div>
+        <div className="noticias-box-canais">
+          <div className="noticias-section">
+          <div className="box-noticia">
+            <div className="noticia">
+              <div className="canal">
+                <div className="dados-canal">
+                  <Image className='logog1' src={LogoG1} alt="LogoG1" />
+                  <div className="nome-hora">
+                    <div className="nome-box-canal">
+                      <h1 className='nome-canal'>G1</h1>
+                      <Image src={VerificadoIcon} alt="VerificadoIcon" />
+                    </div>
+                    <p className='hora-data'>8 horas atrás</p>
                   </div>
-                  <p className='hora-data'>8 horas atrás</p>
                 </div>
-              </div>
-              <div className="noticia-escrita">
-                <h1 className='txt-h1-news'>CS50: Transformando Alunos em Estrelas da Programação.</h1>
-                <p className='txt-p-news'>Leia as histórias inspiradoras de alunos do CS50 de Harvard que agora brilham...</p>
+                <div className="noticia-escrita">
+                  <h1 className='txt-h1-news'>CS50: Transformando Alunos em Estrelas da Programação.</h1>
+                  <p className='txt-p-news'>Leia as histórias inspiradoras de alunos do CS50 de Harvard que agora brilham...</p>
+                </div>
               </div>
             </div>
+            <Image className='Banner1' src={Banner1} alt="Banner1" />
           </div>
-          <Image className='Banner1' src={Banner1} alt="Banner1" />
-        </div>
-        <div className="box-noticia">
-          <div className="noticia">
-            <div className="canal">
-              <div className="dados-canal">
-                <Image className='logog1' src={LogoCNN} alt="LogoG1" />
-                <div className="nome-hora">
-                  <div className="nome-box-canal">
-                    <h1 className='nome-canal'>CNN</h1>
-                    <Image src={VerificadoIcon} alt="VerificadoIcon" />
+          <div className="box-noticia">
+            <div className="noticia">
+              <div className="canal">
+                <div className="dados-canal">
+                  <Image className='logog1' src={LogoCNN} alt="LogoG1" />
+                  <div className="nome-hora">
+                    <div className="nome-box-canal">
+                      <h1 className='nome-canal'>CNN</h1>
+                      <Image src={VerificadoIcon} alt="VerificadoIcon" />
+                    </div>
+                    <p className='hora-data'>12 horas atrás</p>
                   </div>
-                  <p className='hora-data'>12 horas atrás</p>
                 </div>
-              </div>
-              <div className="noticia-escrita">
-                <h1 className='txt-h1-news'>Transformando Carreiras em Histórias de Sucesso.</h1>
-                <p className='txt-p-news'>Descubra as incríveis transformações de carreira impulsionadas pelo CS50...</p>
+                <div className="noticia-escrita">
+                  <h1 className='txt-h1-news'>Transformando Carreiras em Histórias de Sucesso.</h1>
+                  <p className='txt-p-news'>Descubra as incríveis transformações de carreira impulsionadas pelo CS50...</p>
+                </div>
               </div>
             </div>
+            <Image className='Banner1' src={Banner2} alt="Banner1" />
           </div>
-          <Image className='Banner1' src={Banner2} alt="Banner1" />
-        </div>
-        <div className="box-noticia">
-          <div className="noticia">
-              <div className="dados-canal">
-                <Image className='logog1' src={LogoUol} alt="LogoG1" />
-                <div className="nome-hora">
-                  <div className="nome-box-canal">
-                    <h1 className='nome-canal'>UOL</h1>
-                    <Image src={VerificadoIcon} alt="VerificadoIcon" />
+          <div className="box-noticia">
+            <div className="noticia">
+                <div className="dados-canal">
+                  <Image className='logog1' src={LogoUol} alt="LogoG1" />
+                  <div className="nome-hora">
+                    <div className="nome-box-canal">
+                      <h1 className='nome-canal'>UOL</h1>
+                      <Image src={VerificadoIcon} alt="VerificadoIcon" />
+                    </div>
+                    <p className='hora-data'>18 horas atrás</p>
                   </div>
-                  <p className='hora-data'>18 horas atrás</p>
                 </div>
-              </div>
-              <div className="noticia-escrita">
-                <h1 className='txt-h1-news'>CS50 de Harvard: Revolução na Educação Online.</h1>
-                <p className='txt-p-news'>Acompanhe a UOL, que trazem à tona as histórias fascinantes de alunos do CS50...</p>
-              </div>
+                <div className="noticia-escrita">
+                  <h1 className='txt-h1-news'>CS50 de Harvard: Revolução na Educação Online.</h1>
+                  <p className='txt-p-news'>Acompanhe a UOL, que trazem à tona as histórias fascinantes de alunos do CS50...</p>
+                </div>
+            </div>
+            <Image className='Banner1' src={Banner3} alt="Banner1" />
           </div>
-          <Image className='Banner1' src={Banner3} alt="Banner1" />
         </div>
         <div className="cta-news">
           <Link style={{ textDecoration: 'inherit' }} href={'https://pay.kiwify.com.br/jpLUtOM'}>
