@@ -31,18 +31,14 @@ import Banner2 from "../../public/harvard-image-2.png"
 import Banner3 from "../../public/harvard-image-3.png"
 import CircleIndicator from "../app/componentes/progress"
 import Logo from "../app/componentes/animationlogo"
+import PopPP from './componentes/poup-up-top'
 
 
 export default function Home() {
   return (
     <>
     <Logo />
-    <section className='Contador-section'>
-      <>
-        <p className='txt-contador'>Últimas Turmas! <span className='txt-contador-span'>Tempo Restante:</span></p>
-        <CountdownTimer />
-      </>
-    </section>
+    <PopPP />
     <Logo />
     <CircleIndicator />
     <section className='bar'>
@@ -136,8 +132,8 @@ export default function Home() {
               </div>
               <Image className='StarProfile' src={StarProfile} alt="StarProfile" />
             </div>
-            <Image className='CapaProfile1' src={CapaProfile1} alt="CapaProfile1" />
             <p className='txt-comentarios'>Consegui um emprego dos sonhos na Apple, onde aplico diariamente o conhecimento adquirido. Agradeço à Harvard por abrir as portas do meu futuro.</p>
+            <Image className='CapaProfile1' src={CapaProfile1} alt="CapaProfile1" />
           </div>
           <div className="comentarios">
             <div className="profile-stars">
@@ -153,8 +149,8 @@ export default function Home() {
               </div>
               <Image className='StarProfile' src={StarProfile} alt="StarProfile" />
             </div>
-            <Image className='CapaProfile1' src={CapaProfile2} alt="CapaProfile1" />
             <p className='txt-comentarios'>Trabalhar na Google sempre foi meu objetivo, mas parecia distante. O CS50 de Harvard foi o catalisador que transformou minha jornada.</p>
+            <Image className='CapaProfile1' src={CapaProfile2} alt="CapaProfile1" />
           </div>
           <div className="comentarios">
             <div className="profile-stars">
@@ -170,8 +166,8 @@ export default function Home() {
               </div>
               <Image className='StarProfile' src={StarProfile} alt="StarProfile" />
             </div>
-            <Image className='CapaProfile1' src={CapaProfile3} alt="CapaProfile1" />
             <p className='txt-comentarios'>A concorrência para ingressar na Uber é intensa, mas o CS50 de Harvard me deu a vantagem que eu precisava.</p>
+            <Image className='CapaProfile1' src={CapaProfile3} alt="CapaProfile1" />
           </div>
       </div>
         <div className="txt-entrada">
@@ -290,7 +286,7 @@ export default function Home() {
     <footer className='footer'>
       <h1 className='txt-h1-footer'>Desenvolva seus conhecimentos de onde quer que esteja.</h1>
       <Image src={LogoEnsina} alt="LogoEnsina"/>
-      <p className='txt-p-footer'>© 2023 Ensina Inc. Todos os direitos reservados.</p>
+      <p className='txt-p-footer'>© 2023 Harvard Ensina Inc. Todos os direitos reservados.</p>
     </footer>
     
     
