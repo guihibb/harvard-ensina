@@ -288,11 +288,6 @@ export default function Home() {
       <Image src={LogoEnsina} alt="LogoEnsina"/>
       <p className='txt-p-footer'>© 2023 Harvard Ensina Inc. Todos os direitos reservados.</p>
     </footer>
-    
-    
-    
-    
-    
     </>
   )
 }

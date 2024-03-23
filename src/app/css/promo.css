@@ -1,0 +1,147 @@
+body {
+}
+
+
+.custom-modal {
+    z-index: 51;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    width: 90%;
+    box-sizing: border-box !important;
+  }
+
+  .top-content {
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+    padding: 18px 12px 18px 12px;
+    background: #A81D28;
+    width: 100%;
+
+
+    color: var(--white-1, #FFF);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 11px */
+    letter-spacing: -0.264px;
+  }
+
+  .h1 {
+    color: var(--black-1, #000);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: var(--black-1, #000);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .txt {
+    padding: 12px;
+  }
+
+  .promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px 12px 12px;
+  }
+
+  .promo-button {
+    color: var(--white-1, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+    display: flex;
+    padding: 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 100px;
+    background: var(--cor-primaria-1, #A81D28);
+  }
+
+
+  .Harvard {
+    width: 100%;
+    height: 154px;
+    padding: 12px;
+    box-sizing: border-box;
+  }
+
+  .matricula {
+    padding: 12px;
+    box-sizing: border-box;
+  }
+
+
+  .btt {
+    width: 100%;
+    padding: 22px;
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    background: var(--cor-primaria-1, #A81D28);
+
+    color: var(--white-1, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 12px */
+    letter-spacing: -0.288px;
+    text-transform: uppercase;
+  }
+
+  /* promo.css */
+
+/* promo.css */
+
+.custom-modal {
+    z-index: 100;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    box-sizing: border-box !important;
+    overflow: hidden; /* Impede que o overlay-background se estenda além do modal */
+  }
+  
+  .overlay-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99; /* Coloque um índice z abaixo do modal */
+  }
+  
+  
+  
